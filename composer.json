@@ -1,0 +1,20 @@
+{
+  "name": "springchun/yii2-wechat",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wangchun",
+      "email": "wangchun@gmail.com"
+    }
+  ],
+  "require": {
+    "overtrue/wechat": "~3.1",
+    "yiisoft/yii2": "~2.0.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "springchun\\yii2\\wechat\\": ""
+    }
+  }
+}
