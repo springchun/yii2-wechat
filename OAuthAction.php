@@ -45,7 +45,7 @@ class OAuthAction extends Action
                     '/' . $this->uniqueId
                 ]);
             } else {
-                return call_user_func($this->callbackSuccess, $user);
+                return call_user_func($this->successCallback, $user);
             }
         }
     }
