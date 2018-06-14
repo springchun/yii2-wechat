@@ -8,8 +8,6 @@ use Symfony\Component\HttpFoundation\Response;
 use yii\base\Action;
 use yii\base\InvalidParamException;
 use yii\helpers\Url;
-
-
 class OAuthAction extends Action
 {
     public $scopes = ['snsapi_userinfo'];
