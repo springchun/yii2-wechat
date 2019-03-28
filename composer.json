@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "overtrue/wechat": "~4.0",
+    "overtrue/wechat": "~4.1",
     "yiisoft/yii2": "~2.0.5"
   },
   "autoload": {
